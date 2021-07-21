@@ -15,6 +15,11 @@
 import ProductForm from "./forms/ProductForm";
 
 export default {
+  data() {
+     return {
+       activeModal: 0,
+     }
+   },
   components: { ProductForm },
   methods: {
     toggleModal: function (id) {
